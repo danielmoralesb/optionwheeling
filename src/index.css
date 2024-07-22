@@ -13,6 +13,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.option-details {
+  text-align: left;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
