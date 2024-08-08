@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Allura&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+// @use "../styles.scss" as *;
+
+$font-abril-fatface: "Abril Fatface", serif;
+$font-lato: "Lato", sans-serif;
+$font-allura: "Allura", cursive;
+$line-height: 1.15em;
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+$font-weight-black: 900;
+
+$title-font: $font-abril-fatface;
+$title-font-alt: $font-allura;
+$body-font: $font-lato;
+
+// // ------------------------------------------------------ //
+// // Font Sizes
+// //
+$font-size-base: 1rem;
+$font-size-xs: $font-size-base - 0.4;
+$font-size-sm: $font-size-base - 0.25;
+$font-size-md: $font-size-base;
+$font-size-lg: $font-size-base + 0.5;
+$font-size-xl: $font-size-base + 1;
+$font-size-xxl: $font-size-base + 2;
+
+$font-size-title: $font-size-xl;
+$font-size-sub-title: $font-size-lg;
+$font-size-text: $font-size-md;
+
+// h2 {
+//   margin-bottom: $margin;
+// }

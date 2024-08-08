@@ -1,0 +1,81 @@
+// ------------------------------------------------------ //
+// Colors
+// ------
+//
+// Grays
+$white: #fff;
+$off-white: #efefef;
+$gray-light: #e0e0e0;
+$gray: #7c8a9a;
+$gray-dark: darken($gray, 20%);
+$off-black: darken($gray, 30%);
+$black: darken($gray, 40%);
+// ------------------------------------------------------ //
+// Design Colors
+//
+$deep-sapphire: #032349;
+$curious-blue: #24a2e5;
+$red-dark: #a20b10;
+$red-light: #f61118;
+$yellow: #f4c340;
+$someblue: #00c0ff;
+
+$martinique: #323550;
+$mirage: #191b28;
+$tumbleweed: #dab279;
+$ebony-clay: #22253a;
+$leather: #967751;
+$east-bay: #4a4e69;
+
+$black-pearl: #02040c;
+
+$black: #000000;
+
+// ------------------------------------------------------ //
+// Brand Definitions
+//
+$brand-primary: $martinique;
+$brand-primary-alt: $ebony-clay;
+$brand-primary-light: $east-bay;
+$brand-secondary: $mirage;
+$brand-tertiary: $tumbleweed;
+$brand-tertiary-alt: $leather;
+
+// ------------------------------------------------------ //
+// Text Colors
+//
+$text-color-light: $white;
+$text-color-medium: $gray;
+$text-color-dark: $black-pearl;
+$text-color-primary: $brand-primary;
+$text-color-primary-light: $brand-primary-light;
+$text-color-secondary: $brand-secondary;
+$text-color-tertiary: $brand-tertiary;
+$text-color-gray-light: $gray-light;
+
+// ------------------------------------------------------ //
+// Link Colors
+//
+$link-color-primary: $brand-secondary;
+$link-color-secondary: $brand-primary;
+
+// ------------------------------------------------------ //
+// Action Colors
+//
+$danger: $red-light;
+$warning: $yellow;
+$info: $someblue;
+
+// ------------------------------------------------------ //
+// Color Map
+//
+$colors: (
+  brand-primary: $brand-primary,
+  brand-primary-alt: $brand-primary-alt,
+  brand-primary-light: $brand-primary-light,
+  brand-secondary: $brand-secondary,
+  brand-tertiary: $brand-tertiary,
+  brand-tertiary-alt: $brand-tertiary-alt,
+  black-pearl: $black-pearl,
+  white: $white,
+);
